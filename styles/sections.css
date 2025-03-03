@@ -2,47 +2,51 @@ section header {
   border-top: 1px solid var(--stroke-color);
   padding-block: 12px 24px;
   font: var(--text-span);
-
   a {
     justify-self: end;
+    align-items: center;
     gap: 8px;
 
     span {
       background-image: url(/assets/seta\ branca.png);
+      background-repeat: no-repeat;
+
       width: 16px;
       height: 16px;
     }
     &:hover span {
-      background-image: url(ArrowRight\-houver.png);
+      background-image: url(/images/SETA\ AZUL.png);
     }
   }
 }
 
 #featured {
+  grid-area: featured;
   img {
     height: 100%;
     object-fit: cover;
-    border-radius: 4px;
+    border-radius: 6px;
   }
-
   .card {
-    border-radius: 4px;
-    position: relative;
     overflow: hidden;
-
+    position: relative;
+    border-radius: 6px;
     &::before {
       content: "";
-      position: absolute;
+      position: absolute; /* Posiçao abosulta */
       inset: 0;
       top: 50%;
-      background: linear-gradient(180deg, transparent 0%, #020617 100%);
+      background: linear-gradient(
+        180deg,
+        transparent 0%,
+        #020617 100%
+      ); /*Fundo Degrade*/
+      /* overflow: hidden; Escondeu Tudo que passou */
     }
-
     figcaption {
       position: absolute;
       bottom: 0;
       padding: 24px;
-
       &:has(.text-lg) {
         padding: 12px;
       }
@@ -50,17 +54,25 @@ section header {
       h2 {
         margin-top: 8px;
       }
+
+      h3 {
+        margin-top: 8px;
+      }
+      h4 {
+        margin-top: 8px;
+      }
     }
   }
 }
+
 #weekly {
-  & > div {
-    grid-template-columns: repeat(4, 292px);
-  }
+  grid-area: weekly;
   img {
     height: 160px;
   }
-
+  & > div {
+    grid-template-columns: repeat(4, 292px);
+  }
   figure {
     position: relative;
 
@@ -69,10 +81,37 @@ section header {
       top: 8px;
       left: 8px;
     }
-
     p {
       margin-top: 8px;
+
       font-weight: 800;
     }
+  }
+}
+
+aside {
+  grid-area: aside;
+}
+
+#more {
+  margin-top: 32px;
+  h3 {
+    margin-top: 8px;
+  }
+  img {
+    width: 72px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+}
+#al {
+  grid-area: al;
+  img {
+    width: 176px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+  h3 {
+    margin-block: 8px 4px;
   }
 }

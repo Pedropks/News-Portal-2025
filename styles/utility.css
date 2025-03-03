@@ -1,20 +1,17 @@
-/* utility-first */
-
+/* Utility-First */
 .grid {
   display: grid;
 }
-
 .grid-flow-col {
   grid-auto-flow: column;
 }
-
 .grid-cols-2 {
   grid-template-columns: 1fr 1fr;
 }
-
 .gap-16 {
   gap: 16px;
 }
+
 .gap-32 {
   gap: 32px;
 }
@@ -30,5 +27,9 @@
   font: var(--h3);
 }
 .text-sm {
-  font: var(--text-sm);
+  font: var(--h4);
+}
+p {
+  color: var(--text-color-secondary);
+  font-family: var(--Text-sm);
 }
