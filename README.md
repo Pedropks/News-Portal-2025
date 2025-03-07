@@ -36,7 +36,7 @@ News-Portal é uma portal de noticias no formato One Page, responsiva, para usar
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](pedropks.github.io/News-Portal-2025/). 
+Você pode visualizar o layout do projeto através [desse link](https://pedropks.github.io/News-Portal-2025/). 
 
 ## 📝 Licença
 
