@@ -14,7 +14,7 @@
 <br>
 
 <p align="center">
-  <img alt="Nesw-Portal" src=".github/Thumbnail.png" width="100%">
+  <img alt="News-Portal" src=".github/Thumbnail.svg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
