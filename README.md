@@ -32,7 +32,7 @@ Bibliotecas
 
 ## 💻 Projeto
 
-Nesw-Portal é uma portal de noticias no formato One Page, responsiva, para usar em diversos tipos de micro, pequena e média empresas. Contém as seguintes seções: Header, Navigation, Home, Sobre e Footer
+News-Portal é uma portal de noticias no formato One Page, responsiva, para usar em diversos tipos de micro, pequena e média empresas. Contém as seguintes seções: Header, Navigation, Home, Sobre e Footer
 
 ## 🔖 Layout
 
